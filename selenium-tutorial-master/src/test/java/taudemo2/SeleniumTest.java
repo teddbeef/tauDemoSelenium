@@ -37,7 +37,5 @@ public class SeleniumTest {
         driver.get("https://www.example.org");
         assertEquals(expectedOrgTitle, driver.getTitle());
         Assertions.assertEquals(1, 2);
-        Assertions.assertEquals(3, 4);
     }
 }
-// Test commit
